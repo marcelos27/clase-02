@@ -31,3 +31,23 @@ fast-forward: (la fusión va a ser automática) No hay conflicto
 Recursiva: (Unión automática) No hay conflicto
 Manual: (No va poder resolver en forma automática)
 
+## GIT LOG
+git log --help
+
+git log --oneline --decorate --all 
+
+
+## Agregar Alias
+git config --global alias.l "log --oneline"
+git config --global alias.l "log --oneline --all --decorate --graph"
+git config --global alias.c "commit -am"
+git config --global alias.s status --short
+
+## Borrar alias
+git config --global --unset alias.c
+
+## Listar alias disponibles
+git config --get-regexp alias
+
+## GIT COMMIT (Cont...)
+git commit --amend 
