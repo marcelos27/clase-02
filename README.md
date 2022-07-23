@@ -26,4 +26,8 @@ git switch rama-dev
 git merge <rama-que-me-quiero-traer>
 git merge rama-branches
 
+### TIPO DE FUSIONES (MERGE)
+fast-forward: (la fusión va a ser automática) No hay conflicto
+Recursiva: (Unión automática) No hay conflicto
+Manual: (No va poder resolver en forma automática)
 
