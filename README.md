@@ -9,13 +9,21 @@ Le permite a git ver carpetas vacías y versionarlas
 
 ## GIT BRANCH (RAMAS)
 
-## CREAR RAMA
+### CREAR RAMA
 git branch <nombre-rama>
 git branch rama-dev
 
-## LISTAR RAMAS
+### LISTAR RAMAS
 git branch
 
 ## CAMBIARME DE RAMA
 git switch <nombre-rama>
 git switch rama-dev
+
+## GIT MERGE: fusión de ramas
+**IMPORTANTE:** Tengo que estar en la rama en la cual quiero traerme los cambios
+
+git merge <rama-que-me-quiero-traer>
+git merge rama-branches
+
+
